@@ -57,7 +57,7 @@ var can = document.getElementById('gra');
 			}
         }
 		
-		function Moneta (px, py, pszer, pwys)
+                function Moneta (px, py, pszer, pwys)
 		{
 		    this.x = px;
 			this.y = py;
