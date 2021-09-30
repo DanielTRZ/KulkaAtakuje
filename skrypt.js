@@ -227,5 +227,4 @@ var can = document.getElementById('gra');
 			kolizjaZPrzeszkoda();
 			czyKoniec();
 		}
-		
-		setInterval(rysuj, 10);
+	   setInterval(rysuj, 10);
