@@ -160,8 +160,8 @@ var can = document.getElementById('gra');
                 dx = 0;
             }
         }
-		
-		function kolizjaZMoneta()
+	
+           function kolizjaZMoneta()
 		{
 			for (var i=0; i<mon.length; i++)
             {
@@ -212,7 +212,6 @@ var can = document.getElementById('gra');
 				ctx.fillText("WYGRYWASZ", 200, 300);			
 			}
 		}
-
 		
 		function rysuj()
 		{
