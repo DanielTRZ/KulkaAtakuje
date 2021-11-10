@@ -27,10 +27,19 @@ var can = document.getElementById('gra');
 		mon[6] = new Moneta(1030, 330,35, 35);
 		mon[7] = new Moneta(230, 30,35, 35);
 		mon[8] = new Moneta(1190, 260,35, 35);
+
+       
 		var przesz = [];
 		przesz[0] = new Przeszkoda(40, 170,35, 40, 95, 'grzyb.png');
 		przesz[1] = new Przeszkoda(420, 340,35, 40, 10, 'ogień.png');
+        przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
+        przesz[3] = new Przeszkoda(540, 120,35, 40, 10, 'ogień.png');
+        przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
+        przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
+      
+        
 		
+
 		var Grafikapostaci = new Image();
 		Grafikapostaci.src = 'postac.png'
 		var xPos = 10;
@@ -57,7 +66,7 @@ var can = document.getElementById('gra');
 			}
         }
 		
-                function Moneta (px, py, pszer, pwys)
+		function Moneta (px, py, pszer, pwys)
 		{
 		    this.x = px;
 			this.y = py;
@@ -160,8 +169,8 @@ var can = document.getElementById('gra');
                 dx = 0;
             }
         }
-	
-           function kolizjaZMoneta()
+		
+		function kolizjaZMoneta()
 		{
 			for (var i=0; i<mon.length; i++)
             {
@@ -212,6 +221,7 @@ var can = document.getElementById('gra');
 				ctx.fillText("WYGRYWASZ", 200, 300);			
 			}
 		}
+
 		
 		function rysuj()
 		{
@@ -226,4 +236,5 @@ var can = document.getElementById('gra');
 			kolizjaZPrzeszkoda();
 			czyKoniec();
 		}
-	   setInterval(rysuj, 10);
+		
+		setInterval(rysuj, 10);
