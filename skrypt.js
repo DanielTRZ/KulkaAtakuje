@@ -233,6 +233,6 @@ var can = document.getElementById('gra');
 			kolizjaZMoneta();
 			kolizjaZPrzeszkoda();
 			czyKoniec();
-		}
-		
+		} 
+
 		setInterval(rysuj, 10);
