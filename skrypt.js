@@ -202,6 +202,7 @@ var can = document.getElementById('gra');
 			}
 		}
 
+
 		function czyKoniec()
 		{
 			czySaMonety = false;
