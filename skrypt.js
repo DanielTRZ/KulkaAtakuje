@@ -44,9 +44,9 @@ var can = document.getElementById('gra');
 		Grafikapostaci.src = 'postac.png'
 		var xPos = 10;
 		var yPos = 20;
-		var szerPos = 50;
-        var wysPos = 50;
-		var hp = 100;
+		var szerPos = 35;
+        var wysPos = 60;
+		var hp = 110;
 		var wysSkok = 180;
 		var licznik = 0;
 		
