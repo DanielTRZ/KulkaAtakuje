@@ -1,8 +1,10 @@
 html{
     background-image: url(tlo1.jpg);
-    height:auto;
-    width:100em;
     display: flex;
+    background-repeat: no-repeat;
+    max-width: auto;
+    max-height:auto;
+   
 }
 
 #gra{
@@ -12,11 +14,10 @@ html{
     width: 108em;
     margin-left: auto;
     margin-right: auto;
-    display: table-column-group;
+    display:flex;
 }
 h1{
     text-align: center;
     color: white;
     font-family: cursive;
 }
-    
