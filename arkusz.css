@@ -1,15 +1,18 @@
 html{
-background: rgb(129,136,32);
-background: linear-gradient(90deg, rgba(129,136,32,0.9023984593837535) 0%, rgba(48,3,8,1) 0%, rgba(9,8,0,1) 0%, rgba(2,3,0,1) 0%, rgba(14,1,1,0.9953703703703703) 15%, rgba(8,7,2,1) 20%, rgba(0,0,0,1) 23%, rgba(203,15,15,1) 56%, rgba(2,2,0,1) 88%, rgba(0,0,0,1) 88%, rgba(0,0,0,1) 93%, rgba(13,11,1,1) 99%, rgba(9,10,1,1) 99%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+    background-image: url(tlo1.jpg);
+    height:auto;
+    width:100em;
+    display: flex;
 }
+
 #gra{
     
     background-image: url(tlo.jpg);
     height: 40em;
-    width: 100em ;
+    width: 108em;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: table-column-group;
 }
 h1{
     text-align: center;

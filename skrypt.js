@@ -32,18 +32,20 @@ var can = document.getElementById('gra');
 		var przesz = [];
 		przesz[0] = new Przeszkoda(40, 170,35, 40, 95, 'grzyb.png');
 		przesz[1] = new Przeszkoda(420, 340,35, 40, 10, 'ogień.png');
-                przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
-                przesz[3] = new Przeszkoda(540, 120,35, 40, 10, 'ogień.png');
-                przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
-                przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
-      	
+        przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
+        przesz[3] = new Przeszkoda(540, 120,35, 40, 10, 'ogień.png');
+        przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
+        przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
+      
+        
+		
 
 		var Grafikapostaci = new Image();
 		Grafikapostaci.src = 'postac.png'
 		var xPos = 10;
 		var yPos = 20;
 		var szerPos = 50;
-                var wysPos = 50;
+        var wysPos = 50;
 		var hp = 100;
 		var wysSkok = 180;
 		var licznik = 0;
@@ -62,7 +64,7 @@ var can = document.getElementById('gra');
 			{
 			    ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys);
 			}
-                }
+        }
 		
 		function Moneta (px, py, pszer, pwys)
 		{
@@ -114,7 +116,7 @@ var can = document.getElementById('gra');
 			{
 						dy = 3;
 			for (var i=0; i<plat.length; i++)
-               {
+            {
 				if(yPos + wysPos > plat[i].y &&
                  yPos + 0.8*wysPos < plat[i].y &&
                  xPos + szerPos/2 > plat[i].x &&
@@ -201,13 +203,12 @@ var can = document.getElementById('gra');
                 }
 			}
 		}
-
-
+		
 		function czyKoniec()
 		{
 			czySaMonety = false;
 			for (var i=0; i<mon.length; i++)
-               {
+            {
 				if(mon[i].czywidoczna == true)
 				{
 				czySaMonety = true;
@@ -220,7 +221,8 @@ var can = document.getElementById('gra');
 				ctx.fillText("WYGRYWASZ", 200, 300);			
 			}
 		}
-  		
+
+		
 		function rysuj()
 		{
 			ctx.clearRect(0,0,can.width,can.height);
@@ -233,6 +235,6 @@ var can = document.getElementById('gra');
 			kolizjaZMoneta();
 			kolizjaZPrzeszkoda();
 			czyKoniec();
-		} 
-
+		}
+		
 		setInterval(rysuj, 10);
