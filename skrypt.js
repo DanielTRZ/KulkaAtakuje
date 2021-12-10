@@ -38,9 +38,6 @@ var can = document.getElementById('gra');
         przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
         przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
       
-        
-		
-
 		var Grafikapostaci = new Image();
 		Grafikapostaci.src = 'postac.png'
 		var xPos = 10;
