@@ -1,0 +1,86 @@
+<html>
+<body>
+<form method="get" action="serwis_form.php">
+Nazwa producenta: <input type="text" name="producent" size="20"><br>
+Model: <input type="text" name="model" size="20"><br>
+Data produkcji: <input type="text" name="data" size="20"><br>
+Cena: <input type="text" name="cena" size="20"><br>
+<br>
+<input type="submit" value="Zapisz" name="save">
+</form>
+</body>
+</html>
+
+<?php
+//nasz plik z danymi
+$file='https://dlabystrzakow.pl/xml/produkty-dlabystrzakow.xml ';
+//akcje wykonujemy tylko po naciśnięciu Zapisz a więc element save tablicy GET musi istnieć
+if (isset($_GET['save']))
+{
+   //pobieramy wszystkie dane z GET (albo POST jak to jest w twoim przykładzie)
+   $producent=$_GET['producent'];
+   $model=$_GET['model'];
+   $data=$_GET['data'];
+   $cena=$_GET['cena'];
+   //znaczki powrotu karetki, jeśli już operujemy wierszami w pliku to dobrze je powstawiać na końcu wiersza
+   $ret=chr(13).chr(10);
+   //nagłówek xml-a wraz elementem nadrzędnym
+   $header=<<<header
+<?xml version="1.0"?><?xml-stylesheet type="text/xml" href="https://dlabystrzakow.pl/xml/produkty-dlabystrzakow.xml "?>$ret
+<SERWIS>$ret
+header;
+   //stopka xml-a czyli tylko zamknięcie elementu nadrzędnego
+   $footer=<<<footer
+</SERWIS>$ret
+footer;
+   //właściwe dane
+   $data=<<<data
+<APARAT>$ret
+<PRODUCENT>$producent</PRODUCENT>$ret
+<MODEL>$model</MODEL>$ret
+<DATA>$data</DATA>$ret
+<CENA>$cena</CENA>$ret
+</APARAT>$ret
+data;
+   //tylko jeśli plik istnieje to otwieramy go (read) i blokujemy
+   if (file_exists($file))
+   {
+      $uchwyt=fopen($file,'r');
+      flock($uchwyt,LOCK_SH);
+      $i=0;
+      //aż do EOF czytamy jego zawartość wierszami
+      while (!feof($uchwyt))
+      {
+         $linia=fgets($uchwyt,2048);
+         //i ładujemy te wiersze do tablicy $lines
+         $lines[$i]=$linia;
+         $i++;
+      }
+      //odblokowujemy plik i zamykamy
+      flock($uchwyt,LOCK_UN);
+      fclose($uchwyt);
+   }
+   //otwieramy plik do zapisu (w+) i blokujemy
+   $uchwyt=fopen($file,'w+');
+   flock($uchwyt,LOCK_EX);
+   //jeśli plik nie istniał i został utworzony (w+) to wpisujemy do niego nagłówek
+   //w przeciwnym przypadku nagłówek znajdzie się w $lines
+   if (!isset($lines)) {fputs($uchwyt, $header);}
+   //jeśli plik istniał to nadpisujemy go wierszami z $lines ale tylko bez ostatniego wiersza
+   //który zawiera zamknięcie elementu nadrzędnego
+   if (isset($lines))
+   {
+      for ($i=0;$i<count($lines)-2;$i++)
+      {
+         fputs($uchwyt, $lines[$i]);
+      }
+   }
+   //dopisujemy nowe dane
+   fputs($uchwyt, $data);
+   //dopisujemy stopkę czyli zamknięcie elementu nadrzędnego
+   fputs($uchwyt, $footer);
+   //odblokowujemy i zamykamy plik
+   flock($uchwyt,LOCK_UN);
+   fclose($uchwyt);
+}
+?> 

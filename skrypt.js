@@ -15,8 +15,7 @@ var can = document.getElementById('gra');
 		plat[9] = new Platforma(200, 70,100, 40);
 		plat[10] = new Platforma(1160, 320,100, 40);
 		plat[11] = new Platforma(910, 100,100, 40);
-                plat[12] = new Platforma(500,500,300, 80);
-
+        plat[12] = new Platforma(500,500,300, 80);
 		var GrafikaMonety = new Image();
 		GrafikaMonety.src = 'moneta.png';
 		var mon = [];
@@ -29,21 +28,25 @@ var can = document.getElementById('gra');
 		mon[6] = new Moneta(1030, 330,35, 35);
 		mon[7] = new Moneta(230, 30,35, 35);
 		mon[8] = new Moneta(1190, 260,35, 35);
-    
+
+       
 		var przesz = [];
 		przesz[0] = new Przeszkoda(40, 170,35, 40, 95, 'grzyb.png');
 		przesz[1] = new Przeszkoda(420, 340,35, 40, 10, 'ogień.png');
-                przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
-                przesz[3] = new Przeszkoda(540, 120,35, 40, 10, 'ogień.png');
-                przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
-                przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
+        przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
+        przesz[3] = new Przeszkoda(540, 120,35, 40, 10, 'ogień.png');
+        przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
+        przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
       
+        
+		
+
 		var Grafikapostaci = new Image();
 		Grafikapostaci.src = 'postac.png'
 		var xPos = 10;
 		var yPos = 20;
 		var szerPos = 35;
-                var wysPos = 60;
+        var wysPos = 60;
 		var hp = 110;
 		var wysSkok = 180;
 		var licznik = 0;
@@ -62,7 +65,7 @@ var can = document.getElementById('gra');
 			{
 			    ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys);
 			}
-                }
+        }
 		
 		function Moneta (px, py, pszer, pwys)
 		{
@@ -114,7 +117,7 @@ var can = document.getElementById('gra');
 			{
 						dy = 3;
 			for (var i=0; i<plat.length; i++)
-               {
+            {
 				if(yPos + wysPos > plat[i].y &&
                  yPos + 0.8*wysPos < plat[i].y &&
                  xPos + szerPos/2 > plat[i].x &&
@@ -236,3 +239,4 @@ var can = document.getElementById('gra');
 		}
 		
 		setInterval(rysuj, 10);
+
