@@ -235,4 +235,3 @@ var can = document.getElementById('gra');
 		}
 		
 		setInterval(rysuj, 10);
-
