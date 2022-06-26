@@ -62,7 +62,7 @@ var can = document.getElementById('gra');
 			{
 			    ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys);
 			}
-               }
+                }
 		
 		function Moneta (px, py, pszer, pwys)
 		{
