@@ -67,7 +67,7 @@ var can = document.getElementById('gra');
 		function Moneta (px, py, pszer, pwys)
 		{
 		    this.x = px;
-			this.y = py;
+		    this.y = py;
 			this.szer = pszer;
 			this.wys = pwys;
 			this.czywidoczna = true;
