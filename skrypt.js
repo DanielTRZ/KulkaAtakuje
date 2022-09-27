@@ -51,7 +51,7 @@ var can = document.getElementById('gra');
 		function Platforma (px, py, pszer, pwys)
 		{
 		    this.x = px;
-			this.y = py;
+		   this.y = py;
 		    this.szer = pszer;
 			this.wys = pwys;
 		}
