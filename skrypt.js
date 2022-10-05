@@ -69,7 +69,7 @@ var can = document.getElementById('gra');
 		    this.x = px;
 		    this.y = py;
 		    this.szer = pszer;
-			this.wys = pwys;
+		    this.wys = pwys;
 			this.czywidoczna = true;
 		}
 		
