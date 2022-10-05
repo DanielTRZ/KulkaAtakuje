@@ -87,7 +87,7 @@ var can = document.getElementById('gra');
 		function Przeszkoda (px, py, pszer, pwys, pzabiera, pnazwa)
 		{
 		    this.x = px;
-			this.y = py;
+		    this.y = py;
 			this.szer = pszer;
 			this.wys = pwys;
 			this.czywidoczna = true;
