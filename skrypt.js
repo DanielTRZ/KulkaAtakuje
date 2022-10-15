@@ -112,7 +112,7 @@ var can = document.getElementById('gra');
 		{
 			if (dy >= 0)
 			{
-		            dy = 3;
+		           dy = 3;
 			for (var i=0; i<plat.length; i++)
                {
 			if(yPos + wysPos > plat[i].y &&
