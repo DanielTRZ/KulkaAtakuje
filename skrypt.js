@@ -140,7 +140,7 @@ var can = document.getElementById('gra');
 		var dx = 0;
 		function ruchPostaci(e)
 		{
-			if(e.keyCode == 37)
+		if(e.keyCode == 37)
             {
                dx = -2;
             }
