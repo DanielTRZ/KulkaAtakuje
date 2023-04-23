@@ -166,7 +166,7 @@
             {
                 dx = 0;
             }
-        }
+         }
 		
 		function kolizjaZMoneta()
 		{
