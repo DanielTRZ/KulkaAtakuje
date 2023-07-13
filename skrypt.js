@@ -154,7 +154,7 @@
             }
 		}
 		
-		document.addEventListener('keyup', stop, false);
+  	document.addEventListener('keyup', stop, false);
 
         function stop(e)
         {
