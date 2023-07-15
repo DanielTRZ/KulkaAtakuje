@@ -60,7 +60,7 @@
 		{
 		    for (var i = 0;i<plat.length;i++)
 			{
-			 ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys);
+		         ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys);
 			}
                 }
 		
