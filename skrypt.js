@@ -80,7 +80,7 @@
 		        if (mon[i].czywidoczna == true)
 			{
 		         ctx.drawImage(GrafikaMonety, mon[i].x, mon[i].y, mon[i].szer, mon[i].wys);
-				}
+			}
 			}
 		}
 		
