@@ -133,7 +133,7 @@
 		        licznik = 0;
 				}
 			}
-			         yPos = yPos + dy; 
+		        yPos = yPos + dy; 
 		}
 
 		document.addEventListener('keydown',ruchPostaci, false);
