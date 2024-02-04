@@ -131,7 +131,7 @@
 		        {
 		        dy = 0;
 		        licznik = 0;
-				}
+			}
 			}
 		        yPos = yPos + dy; 
 		}
