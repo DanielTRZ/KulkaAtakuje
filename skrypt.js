@@ -177,7 +177,7 @@
                  xPos < mon[i].x + mon[i].szer/2&&
                  xPos + szerPos > mon[i].x + mon[i].szer/2)
                 {
-                    mon[i].czywidoczna = false;
+                 mon[i].czywidoczna = false;
                 }
 			}
 		}
