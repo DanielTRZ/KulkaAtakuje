@@ -141,7 +141,7 @@
 		function ruchPostaci(e)
 		{
 		if(e.keyCode == 37)
-            {
+                {
                dx = -2;
             }
             else if(e.keyCode == 39)
