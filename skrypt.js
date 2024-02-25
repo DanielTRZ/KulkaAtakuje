@@ -136,7 +136,7 @@
 		        yPos = yPos + dy; 
 		}
 
-		document.addEventListener('keydown',ruchPostaci, false);
+	          	document.addEventListener('keydown',ruchPostaci, false);
 		var dx = 0;
 		function ruchPostaci(e)
 		{
