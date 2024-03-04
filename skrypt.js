@@ -120,7 +120,7 @@
                         xPos + szerPos/2 > plat[i].x &&
                         xPos + szerPos/2 <plat[i].x + plat[i].szer)
                 {
-                    dy = 0;
+                        dy = 0;
                 }
 			}
 			}
