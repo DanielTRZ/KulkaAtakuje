@@ -162,7 +162,7 @@
             {
                         dx = 0;
             }
-            else if(e.keyCode == 39)
+                        else if(e.keyCode == 39)
             {
             dx = 0;
             }
