@@ -168,7 +168,7 @@
             }
          }
 		
-		function kolizjaZMoneta()
+	         	function kolizjaZMoneta()
 		{
 		for (var i=0; i<mon.length; i++)
             {
