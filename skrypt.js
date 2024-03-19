@@ -137,7 +137,7 @@
 		}
 
 	          	document.addEventListener('keydown',ruchPostaci, false);
-                var dx = 0;
+                        var dx = 0;
 	         	function ruchPostaci(e)
 		{
 		        if(e.keyCode == 37)
