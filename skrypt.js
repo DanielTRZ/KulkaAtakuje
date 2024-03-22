@@ -124,7 +124,7 @@
                 }
 			}
 			}
-			else
+		else
 			{
 			licznik = licznik + 3;
 			if (licznik >= wysSkok)
