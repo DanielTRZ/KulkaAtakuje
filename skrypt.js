@@ -182,7 +182,7 @@
 			}
 		}
 		
-		function kolizjaZPrzeszkoda()
+	         	function kolizjaZPrzeszkoda()
 		{
 		for (var i=0; i<przesz.length; i++)
             {
