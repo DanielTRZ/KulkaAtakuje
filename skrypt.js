@@ -209,7 +209,7 @@
            {
 			if(mon[i].czywidoczna == true)
 				{
-				czySaMonety = true;
+			czySaMonety = true;
 				}
 			}
 			if (czySaMonety == false)
