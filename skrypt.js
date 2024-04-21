@@ -157,7 +157,7 @@
   	                document.addEventListener('keyup', stop, false);
 
                         function stop(e)
-        {
+                {
                         if(e.keyCode == 37)
             {
                         dx = 0;
