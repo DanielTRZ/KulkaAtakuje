@@ -58,7 +58,7 @@
 		
 		function rysyjplatformy()
 		{
-		        for (var i = 0;i<plat.length;i++)
+		    for (var i = 0;i<plat.length;i++)
 			{
 		         ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys);
 			}
