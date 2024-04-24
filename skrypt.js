@@ -81,7 +81,7 @@
 		    {
 		    ctx.drawImage(GrafikaMonety, mon[i].x, mon[i].y, mon[i].szer, mon[i].wys);
 		    }
-			}
+		}
 		}
 		
 		function Przeszkoda (px, py, pszer, pwys, pzabiera, pnazwa)
