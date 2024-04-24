@@ -76,9 +76,9 @@
 		function rysujmonety()
 		{
                     for (var i = 0;i<mon.length;i++)
-		{
-		        if (mon[i].czywidoczna == true)
-			{
+		    {
+		    if (mon[i].czywidoczna == true)
+		    {
 		         ctx.drawImage(GrafikaMonety, mon[i].x, mon[i].y, mon[i].szer, mon[i].wys);
 			}
 			}
@@ -114,7 +114,7 @@
 			{
 		        dy = 3;
 		        for (var i=0; i<plat.length; i++)
-                {
+                  {
 		       if(yPos + wysPos > plat[i].y &&
                         yPos + 0.8*wysPos < plat[i].y &&
                         xPos + szerPos/2 > plat[i].x &&
