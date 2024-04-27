@@ -98,7 +98,7 @@
 		
 		function rysujprzeszkody()
 		{
-			for (var i = 0;i<przesz.length;i++)
+		    for (var i = 0;i<przesz.length;i++)
 			{
 		        if (przesz[i].czywidoczna == true)
 		        {
