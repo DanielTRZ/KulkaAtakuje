@@ -104,7 +104,7 @@
 		    {
 		    ctx.drawImage(przesz[i].GrafikaPrzeszkody, przesz[i].x, przesz[i].y, przesz[i].szer, przesz[i].wys);
 	            }
-			}
+		    }
 		}
 		
 		var dy = 0;
