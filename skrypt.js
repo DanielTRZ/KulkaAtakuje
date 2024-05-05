@@ -110,7 +110,7 @@
 		var dy = 0;
 		function grawitacja()
 		{
-	            if (dy >= 0)
+	             if (dy >= 0)
 	           {
 		        dy = 3;
 		        for (var i=0; i<plat.length; i++)
