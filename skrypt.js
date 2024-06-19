@@ -1,6 +1,6 @@
 var can = document.getElementById('gra');
 var ctx = can.getContext('2d');
-		var GrafikaPlatformy = new Image();
+var GrafikaPlatformy = new Image();
 		GrafikaPlatformy.src = 'platforma.png';
 		var plat = [];
 		plat[0] = new Platforma(0,500,300, 80);
