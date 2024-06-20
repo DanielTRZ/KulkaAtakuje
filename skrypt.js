@@ -18,7 +18,7 @@ plat[11] = new Platforma(910, 100,100, 40);
 plat[12] = new Platforma(500,500,300, 80);
 
 var GrafikaMonety = new Image();
-		GrafikaMonety.src = 'moneta.png';
+GrafikaMonety.src = 'moneta.png';
 		var mon = [];
 		mon[0] = new Moneta(130, 190, 35, 35);
 		mon[1] = new Moneta(270, 300,35, 35);
