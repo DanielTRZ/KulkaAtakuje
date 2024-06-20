@@ -13,7 +13,7 @@ plat[6] = new Platforma(730, 300,100, 40);
 plat[7] = new Platforma(670, 100,100, 40);
 plat[8] = new Platforma(1000, 390,100, 40);
 plat[9] = new Platforma(200, 70,100, 40);
-		plat[10] = new Platforma(1160, 320,100, 40);
+plat[10] = new Platforma(1160, 320,100, 40);
 		plat[11] = new Platforma(910, 100,100, 40);
                 plat[12] = new Platforma(500,500,300, 80);
 
