@@ -27,7 +27,7 @@ mon[3] = new Moneta(410, 120,35, 35);
 mon[4] = new Moneta(760, 240,35, 35);
 mon[5] = new Moneta(700, 40,35, 35);
 mon[6] = new Moneta(1030, 330,35, 35);
-		mon[7] = new Moneta(230, 30,35, 35);
+mon[7] = new Moneta(230, 30,35, 35);
 		mon[8] = new Moneta(1190, 260,35, 35);
     
 		var przesz = [];
