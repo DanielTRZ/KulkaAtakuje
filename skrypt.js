@@ -36,7 +36,7 @@ przesz[1] = new Przeszkoda(420, 340,35, 40, 10, 'ogień.png');
 przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
 przesz[3] = new Przeszkoda(540, 120,35, 40, 10, 'ogień.png');
 przesz[4] = new Przeszkoda(790,50,35, 40, 10, 'ogień.png');
-                przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
+przesz[5] = new Przeszkoda(1100,90,35, 40, 10, 'ogień.png');
       		
 		var Grafikapostaci = new Image();
 		Grafikapostaci.src = 'postac.png'
