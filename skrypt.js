@@ -30,7 +30,7 @@ mon[6] = new Moneta(1030, 330,35, 35);
 mon[7] = new Moneta(230, 30,35, 35);
 mon[8] = new Moneta(1190, 260,35, 35);
     
-		var przesz = [];
+var przesz = [];
 		przesz[0] = new Przeszkoda(40, 170,35, 40, 95, 'grzyb.png');
 		przesz[1] = new Przeszkoda(420, 340,35, 40, 10, 'ogień.png');
                 przesz[2] = new Przeszkoda(320, 25,35, 40, 10, 'ogień.png');
