@@ -56,7 +56,7 @@ this.szer = pszer;
 this.wys = pwys;
 }
 		
-		function rysyjplatformy()
+function rysyjplatformy()
 		{
 		    for (var i = 0;i<plat.length;i++)
 	            {
