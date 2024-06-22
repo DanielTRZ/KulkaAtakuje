@@ -45,7 +45,7 @@ var yPos = 20;
 var szerPos = 35;
 var wysPos = 60;
 var hp = 110;
-		var wysSkok = 180;
+var wysSkok = 180;
 		var licznik = 0;
 		
 		function Platforma (px, py, pszer, pwys)
