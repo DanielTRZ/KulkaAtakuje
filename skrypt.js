@@ -54,7 +54,7 @@ this.x = px;
 this.y = py;
 this.szer = pszer;
 this.wys = pwys;
-		}
+}
 		
 		function rysyjplatformy()
 		{
