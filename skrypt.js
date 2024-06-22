@@ -49,7 +49,7 @@ var wysSkok = 180;
 var licznik = 0;
 		
 function Platforma (px, py, pszer, pwys)
-		{
+{
 		    this.x = px;
 		    this.y = py;
 		    this.szer = pszer;
