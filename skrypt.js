@@ -73,7 +73,7 @@ this.wys = pwys;
 this.czywidoczna = true;
 }
 		
-		function rysujmonety()
+function rysujmonety()
 		{
                     for (var i = 0;i<mon.length;i++)
 		    {
