@@ -96,7 +96,7 @@ this.GrafikaPrzeszkody = new Image();
 this.GrafikaPrzeszkody.src = pnazwa;
 }
 		
-		function rysujprzeszkody()
+function rysujprzeszkody()
 		{
 		    for (var i = 0;i<przesz.length;i++)
 	            {
