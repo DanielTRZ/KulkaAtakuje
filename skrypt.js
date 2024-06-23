@@ -66,7 +66,7 @@ ctx.drawImage(GrafikaPlatformy, plat[i].x, plat[i].y, plat[i].szer, plat[i].wys)
 		
 function Moneta (px, py, pszer, pwys)
 {
-		    this.x = px;
+this.x = px;
 		    this.y = py;
 		    this.szer = pszer;
 		    this.wys = pwys;
