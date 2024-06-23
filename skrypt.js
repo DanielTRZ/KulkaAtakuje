@@ -75,7 +75,7 @@ this.czywidoczna = true;
 		
 function rysujmonety()
 {
-                    for (var i = 0;i<mon.length;i++)
+for (var i = 0;i<mon.length;i++)
 		    {
 		    if (mon[i].czywidoczna == true)
 		    {
