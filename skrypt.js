@@ -117,7 +117,7 @@ for (var i=0; i<plat.length; i++)
 {
 if(yPos + wysPos > plat[i].y &&
 yPos + 0.8*wysPos < plat[i].y &&
-                        xPos + szerPos/2 > plat[i].x &&
+xPos + szerPos/2 > plat[i].x &&
                         xPos + szerPos/2 <plat[i].x + plat[i].szer)
                 {
                         dy = 0;
