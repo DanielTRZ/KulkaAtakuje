@@ -108,7 +108,7 @@ ctx.drawImage(przesz[i].GrafikaPrzeszkody, przesz[i].x, przesz[i].y, przesz[i].s
 }
 		
 var dy = 0;
-		function grawitacja()
+function grawitacja()
 		{
 	             if (dy >= 0)
 	             {
