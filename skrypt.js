@@ -89,7 +89,7 @@ function Przeszkoda (px, py, pszer, pwys, pzabiera, pnazwa)
 this.x = px;
 this.y = py;
 this.szer = pszer;
-		    this.wys = pwys;
+this.wys = pwys;
 		    this.czywidoczna = true;
 		    this.zabiera = pzabiera;
 		    this.GrafikaPrzeszkody = new Image();
