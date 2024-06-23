@@ -100,7 +100,7 @@ function rysujprzeszkody()
 {
 for (var i = 0;i<przesz.length;i++)
 {
-		    if (przesz[i].czywidoczna == true)
+if (przesz[i].czywidoczna == true)
 		    {
 		    ctx.drawImage(przesz[i].GrafikaPrzeszkody, przesz[i].x, przesz[i].y, przesz[i].szer, przesz[i].wys);
 	            }
