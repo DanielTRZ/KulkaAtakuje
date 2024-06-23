@@ -93,7 +93,7 @@ this.wys = pwys;
 this.czywidoczna = true;
 this.zabiera = pzabiera;
 this.GrafikaPrzeszkody = new Image();
-		    this.GrafikaPrzeszkody.src = pnazwa;
+this.GrafikaPrzeszkody.src = pnazwa;
 		}
 		
 		function rysujprzeszkody()
