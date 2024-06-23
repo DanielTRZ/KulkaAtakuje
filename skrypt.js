@@ -70,7 +70,7 @@ this.x = px;
 this.y = py;
 this.szer = pszer;
 this.wys = pwys;
-		    this.czywidoczna = true;
+this.czywidoczna = true;
 		}
 		
 		function rysujmonety()
