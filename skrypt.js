@@ -71,7 +71,7 @@ this.y = py;
 this.szer = pszer;
 this.wys = pwys;
 this.czywidoczna = true;
-		}
+}
 		
 		function rysujmonety()
 		{
