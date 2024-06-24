@@ -127,7 +127,7 @@ dy = 0;
 else
 {
 licznik = licznik + 3;
-		        if (licznik >= wysSkok)
+if (licznik >= wysSkok)
 		        {
 		        dy = 0;
 		        licznik = 0;
