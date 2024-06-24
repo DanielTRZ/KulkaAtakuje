@@ -125,7 +125,7 @@ dy = 0;
 }
 }
 else
-			{
+{
 			licznik = licznik + 3;
 		        if (licznik >= wysSkok)
 		        {
