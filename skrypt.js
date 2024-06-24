@@ -123,7 +123,7 @@ xPos + szerPos/2 <plat[i].x + plat[i].szer)
 dy = 0;
 }
 }
-			}
+}
 		        else
 			{
 			licznik = licznik + 3;
