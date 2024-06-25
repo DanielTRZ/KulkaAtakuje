@@ -160,7 +160,7 @@ function stop(e)
 {
 if(e.keyCode == 37)
 {
-                        dx = 0;
+dx = 0;
             }
                         else if(e.keyCode == 39)
             {
