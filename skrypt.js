@@ -134,7 +134,7 @@ licznik = 0;
 }
 }
 yPos = yPos + dy; 
-		}
+}
 
 	          	document.addEventListener('keydown',ruchPostaci, false);
                         var dx = 0;
