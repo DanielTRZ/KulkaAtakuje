@@ -171,7 +171,7 @@ dx = 0;
 function kolizjaZMoneta()
 {
 for (var i=0; i<mon.length; i++)
-            {
+{
 		        if(yPos < mon[i].y + mon[i].wys/2 &&
                         yPos + wysPos > mon[i].y + mon[i].wys/2 &&
                         xPos < mon[i].x + mon[i].szer/2&&
