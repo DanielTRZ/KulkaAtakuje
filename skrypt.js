@@ -154,7 +154,7 @@ dy = -3;
 }
 }
 		
-  	                document.addEventListener('keyup', stop, false);
+document.addEventListener('keyup', stop, false);
 
                         function stop(e)
                 {
