@@ -150,7 +150,7 @@ dx = 2;
 }
 else if(e.keyCode == 38 && dy == 0)
 {
-                        dy = -3;
+dy = -3;
                 }
 		}
 		
