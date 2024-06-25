@@ -146,7 +146,7 @@ dx = -2;
 }
 else if(e.keyCode == 39)
 {
-                        dx = 2;
+dx = 2;
                 }
 	                else if(e.keyCode == 38 && dy == 0)
                 {
