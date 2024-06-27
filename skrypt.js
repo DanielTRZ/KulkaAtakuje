@@ -183,7 +183,7 @@ mon[i].czywidoczna = false;
 }
 		
 function kolizjaZPrzeszkoda()
-		{
+{
 		        for (var i=0; i<przesz.length; i++)
             {
 			if(yPos < przesz[i].y + przesz[i].wys/2 &&
