@@ -197,7 +197,7 @@ hp = hp - przesz[i].zabiera;
 if (hp <= 0)
 {
 location.reload();
-		        }
+}
                 }
 			}
 		}
