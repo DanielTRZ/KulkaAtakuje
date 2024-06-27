@@ -209,7 +209,7 @@ for (var i=0; i<mon.length; i++)
 {
 if(mon[i].czywidoczna == true)
 {
-			czySaMonety = true;
+czySaMonety = true;
 				}
 			}
 			if (czySaMonety == false)
