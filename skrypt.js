@@ -207,7 +207,7 @@ function czyKoniec()
 czySaMonety = false;
 for (var i=0; i<mon.length; i++)
 {
-			if(mon[i].czywidoczna == true)
+if(mon[i].czywidoczna == true)
 				{
 			czySaMonety = true;
 				}
