@@ -179,7 +179,7 @@ xPos + szerPos > mon[i].x + mon[i].szer/2)
 {
 mon[i].czywidoczna = false;
 }
-			}
+}
 		}
 		
 	         	function kolizjaZPrzeszkoda()
