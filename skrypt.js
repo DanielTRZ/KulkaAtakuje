@@ -211,7 +211,7 @@ if(mon[i].czywidoczna == true)
 {
 czySaMonety = true;
 }
-			}
+}
 			if (czySaMonety == false)
 			{
 				ctx.clearRect(0,0,can.width,can.height);
