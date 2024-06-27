@@ -199,7 +199,7 @@ if (hp <= 0)
 location.reload();
 }
 }
-			}
+}
 		}
 		
 		function czyKoniec()
