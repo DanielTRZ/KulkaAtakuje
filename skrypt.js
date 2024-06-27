@@ -182,7 +182,7 @@ mon[i].czywidoczna = false;
 }
 }
 		
-	         	function kolizjaZPrzeszkoda()
+function kolizjaZPrzeszkoda()
 		{
 		        for (var i=0; i<przesz.length; i++)
             {
