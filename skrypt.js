@@ -198,7 +198,7 @@ if (hp <= 0)
 {
 location.reload();
 }
-                }
+}
 			}
 		}
 		
