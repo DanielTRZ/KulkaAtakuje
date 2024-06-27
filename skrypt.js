@@ -200,7 +200,7 @@ location.reload();
 }
 }
 }
-		}
+}
 		
 		function czyKoniec()
 		{
