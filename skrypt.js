@@ -205,7 +205,7 @@ location.reload();
 function czyKoniec()
 {
 czySaMonety = false;
-			for (var i=0; i<mon.length; i++)
+for (var i=0; i<mon.length; i++)
            {
 			if(mon[i].czywidoczna == true)
 				{
