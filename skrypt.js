@@ -203,7 +203,7 @@ location.reload();
 }
 		
 function czyKoniec()
-		{
+{
 			czySaMonety = false;
 			for (var i=0; i<mon.length; i++)
            {
