@@ -185,7 +185,7 @@ mon[i].czywidoczna = false;
 function kolizjaZPrzeszkoda()
 {
 for (var i=0; i<przesz.length; i++)
-            {
+{
 			if(yPos < przesz[i].y + przesz[i].wys/2 &&
                         yPos + wysPos > przesz[i].y + przesz[i].wys/2 &&
                         xPos < przesz[i].x + przesz[i].szer/2&&
