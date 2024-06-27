@@ -191,7 +191,7 @@ yPos + wysPos > przesz[i].y + przesz[i].wys/2 &&
 xPos < przesz[i].x + przesz[i].szer/2&&
 xPos + szerPos > przesz[i].x + przesz[i].szer/2 &&
 przesz[i].czywidoczna == true)
-                {
+{
                         przesz[i].czywidoczna = false;
 	                hp = hp - przesz[i].zabiera;
 	                if (hp <= 0)
