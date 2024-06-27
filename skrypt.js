@@ -202,7 +202,7 @@ location.reload();
 }
 }
 		
-		function czyKoniec()
+function czyKoniec()
 		{
 			czySaMonety = false;
 			for (var i=0; i<mon.length; i++)
