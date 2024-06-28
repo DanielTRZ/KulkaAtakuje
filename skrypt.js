@@ -230,7 +230,7 @@ ctx.drawImage(Grafikapostaci, xPos, yPos, szerPos, wysPos);
 grawitacja();
 xPos = xPos + dx;
 kolizjaZMoneta();
-			kolizjaZPrzeszkoda();
+kolizjaZPrzeszkoda();
 			czyKoniec();
 		}
 		
