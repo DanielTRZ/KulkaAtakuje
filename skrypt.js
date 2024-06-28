@@ -212,7 +212,7 @@ if(mon[i].czywidoczna == true)
 czySaMonety = true;
 }
 }
-			if (czySaMonety == false)
+if (czySaMonety == false)
 			{
 				ctx.clearRect(0,0,can.width,can.height);
 				ctx.font = "120px Georgia";
