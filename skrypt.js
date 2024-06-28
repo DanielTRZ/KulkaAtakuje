@@ -221,7 +221,7 @@ ctx.fillText("WYGRYWASZ", 200, 300);
 }
 		
 function rysuj()
-		{
+{
 			ctx.clearRect(0,0,can.width,can.height);
 			rysyjplatformy();
 			rysujmonety();
