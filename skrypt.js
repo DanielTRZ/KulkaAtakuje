@@ -216,7 +216,7 @@ if (czySaMonety == false)
 {
 ctx.clearRect(0,0,can.width,can.height);
 ctx.font = "120px Georgia";
-				ctx.fillText("WYGRYWASZ", 200, 300);			
+ctx.fillText("WYGRYWASZ", 200, 300);			
 			}
 		}
 		
