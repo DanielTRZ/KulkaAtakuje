@@ -231,7 +231,7 @@ grawitacja();
 xPos = xPos + dx;
 kolizjaZMoneta();
 kolizjaZPrzeszkoda();
-			czyKoniec();
+czyKoniec();
 		}
 		
 		setInterval(rysuj, 10);
