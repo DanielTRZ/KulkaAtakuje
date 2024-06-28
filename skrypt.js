@@ -227,7 +227,7 @@ rysyjplatformy();
 rysujmonety();
 rysujprzeszkody();
 ctx.drawImage(Grafikapostaci, xPos, yPos, szerPos, wysPos);
-			grawitacja();
+grawitacja();
 			xPos = xPos + dx;
 			kolizjaZMoneta();
 			kolizjaZPrzeszkoda();
