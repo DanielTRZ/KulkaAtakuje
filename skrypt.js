@@ -232,6 +232,6 @@ xPos = xPos + dx;
 kolizjaZMoneta();
 kolizjaZPrzeszkoda();
 czyKoniec();
-		}
+}
 		
 		setInterval(rysuj, 10);
