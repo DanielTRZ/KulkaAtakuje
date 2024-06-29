@@ -44,7 +44,7 @@ $data=<<<data
 data;
 //tylko jeśli plik istnieje to otwieramy go (read) i blokujemy
 if (file_exists($file))
-   {
+{
       $uchwyt=fopen($file,'r');
       flock($uchwyt,LOCK_SH);
       $i=0;
