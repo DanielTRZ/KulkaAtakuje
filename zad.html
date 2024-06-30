@@ -60,7 +60,7 @@ $i++;
 flock($uchwyt,LOCK_UN);
 fclose($uchwyt);
 }
- //otwieramy plik do zapisu (w+) i blokujemy
+//otwieramy plik do zapisu (w+) i blokujemy
  $uchwyt=fopen($file,'w+');
  flock($uchwyt,LOCK_EX);
  //jeśli plik nie istniał i został utworzony (w+) to wpisujemy do niego nagłówek
