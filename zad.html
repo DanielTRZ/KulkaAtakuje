@@ -49,7 +49,7 @@ $uchwyt=fopen($file,'r');
 flock($uchwyt,LOCK_SH);
 $i=0;
 //aż do EOF czytamy jego zawartość wierszami
-      while (!feof($uchwyt))
+while (!feof($uchwyt))
       {
          $linia=fgets($uchwyt,2048);
          //i ładujemy te wiersze do tablicy $lines
