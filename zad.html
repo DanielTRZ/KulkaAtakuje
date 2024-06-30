@@ -57,7 +57,7 @@ $lines[$i]=$linia;
 $i++;
 }
 //odblokowujemy plik i zamykamy
-      flock($uchwyt,LOCK_UN);
+flock($uchwyt,LOCK_UN);
       fclose($uchwyt);
     }
    //otwieramy plik do zapisu (w+) i blokujemy
