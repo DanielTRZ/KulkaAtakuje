@@ -54,7 +54,7 @@ while (!feof($uchwyt))
 $linia=fgets($uchwyt,2048);
 //i ładujemy te wiersze do tablicy $lines
 $lines[$i]=$linia;
-         $i++;
+$i++;
        }
       //odblokowujemy plik i zamykamy
       flock($uchwyt,LOCK_UN);
