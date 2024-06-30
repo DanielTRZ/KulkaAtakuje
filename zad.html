@@ -46,7 +46,7 @@ data;
 if (file_exists($file))
 {
 $uchwyt=fopen($file,'r');
-      flock($uchwyt,LOCK_SH);
+flock($uchwyt,LOCK_SH);
       $i=0;
       //aż do EOF czytamy jego zawartość wierszami
       while (!feof($uchwyt))
