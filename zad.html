@@ -56,7 +56,7 @@ $linia=fgets($uchwyt,2048);
 $lines[$i]=$linia;
 $i++;
 }
-      //odblokowujemy plik i zamykamy
+//odblokowujemy plik i zamykamy
       flock($uchwyt,LOCK_UN);
       fclose($uchwyt);
     }
