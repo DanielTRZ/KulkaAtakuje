@@ -67,7 +67,7 @@ flock($uchwyt,LOCK_EX);
 //w przeciwnym przypadku nagłówek znajdzie się w $lines
 if (!isset($lines)) {fputs($uchwyt, $header);}
 //jeśli plik istniał to nadpisujemy go wierszami z $lines ale tylko bez ostatniego wiersza
-   //który zawiera zamknięcie elementu nadrzędnego
+//który zawiera zamknięcie elementu nadrzędnego
    if (isset($lines))
    {
       for ($i=0;$i<count($lines)-2;$i++)
