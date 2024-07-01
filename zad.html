@@ -63,7 +63,7 @@ fclose($uchwyt);
 //otwieramy plik do zapisu (w+) i blokujemy
 $uchwyt=fopen($file,'w+');
 flock($uchwyt,LOCK_EX);
- //jeśli plik nie istniał i został utworzony (w+) to wpisujemy do niego nagłówek
+//jeśli plik nie istniał i został utworzony (w+) to wpisujemy do niego nagłówek
 //w przeciwnym przypadku nagłówek znajdzie się w $lines
 if (!isset($lines)) {fputs($uchwyt, $header);}
 //jeśli plik istniał to nadpisujemy go wierszami z $lines ale tylko bez ostatniego wiersza
