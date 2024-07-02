@@ -6,7 +6,7 @@ max-width: auto;
 max-height:auto;
 }
 #gra{    
-    background-image: url(tlo.jpg);
+background-image: url(tlo.jpg);
     height: 40em;
     width: 108em;
     margin-left:auto;
