@@ -3,7 +3,7 @@ background-image: url(tlo1.jpg);
 display: flex;
 background-repeat: no-repeat;
 max-width: auto;
-    max-height:auto;
+max-height:auto;
 }
 #gra{    
     background-image: url(tlo.jpg);
