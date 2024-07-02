@@ -1,7 +1,7 @@
 html{
 background-image: url(tlo1.jpg);
 display: flex;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
     max-width: auto;
     max-height:auto;
 }
