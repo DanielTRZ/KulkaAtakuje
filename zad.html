@@ -77,7 +77,7 @@ fputs($uchwyt, $lines[$i]);
 }
 //dopisujemy nowe dane
 fputs($uchwyt, $data);
-   //dopisujemy stopkę czyli zamknięcie elementu nadrzędnego
+//dopisujemy stopkę czyli zamknięcie elementu nadrzędnego
    fputs($uchwyt, $footer);
    //odblokowujemy i zamykamy plik
    flock($uchwyt,LOCK_UN);
