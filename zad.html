@@ -81,6 +81,6 @@ fputs($uchwyt, $data);
 fputs($uchwyt, $footer);
 //odblokowujemy i zamykamy plik
 flock($uchwyt,LOCK_UN);
-   fclose($uchwyt);
+fclose($uchwyt);
  }
 ?>
